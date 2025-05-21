@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
           <div className="w-full md:w-1/2 mb-10 md:mb-0">
             <div className="w-64 h-64 md:w-80 md:h-80 mx-auto bg-white rounded-full overflow-hidden border-4 border-white">
               <img 
-                src="/lovable-uploads/964aafde-ecec-4418-a922-327c683f9c57.png" 
+                src="/lovable-uploads/157160d2-23a2-4965-ac41-536090d17148.png" 
                 alt="Roshini S" 
                 className="w-full h-full object-cover"
               />
