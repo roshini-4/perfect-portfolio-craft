@@ -3,7 +3,7 @@ import React from 'react';
 import SectionTitle from './SectionTitle';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Book, Headphones, Bicycle } from 'lucide-react';
+import { BookOpen, Headphones, Bike } from 'lucide-react';
 
 const SkillsSection = () => {
   const skills = [
@@ -21,9 +21,9 @@ const SkillsSection = () => {
   ];
 
   const hobbies = [
-    { name: 'Reading Books', icon: <Book className="mr-2" size={18} /> },
+    { name: 'Reading Books', icon: <BookOpen className="mr-2" size={18} /> },
     { name: 'Listening Music', icon: <Headphones className="mr-2" size={18} /> },
-    { name: 'Cycling', icon: <Bicycle className="mr-2" size={18} /> },
+    { name: 'Cycling', icon: <Bike className="mr-2" size={18} /> },
   ];
 
   return (
